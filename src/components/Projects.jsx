@@ -2,18 +2,28 @@
 import { motion } from "framer-motion"
 import FashionStore from "../assets/FashionStore.jpg"
 import TodoList from "../assets/todo_banner.jpg"
+import EcoAction from "../assets/EcoAction.jpg"
 
 
 const Projects = () => {
   const projects = [
     {
-      category: "Package Design Project",
+      // category: "Package Design Project",
       title: "FashionStore",
       description:
         "Developed a full-stack e-commerce platform using MongoDB, Express, React, and Node.js. Implemented secure user authentication, product catalogue with advanced filtering, shopping cart functionality, and an admin dashboard.",
       image: FashionStore,
       buttonText: "View Project",
       url: "https://github.com/suya22/FashionStore", 
+    },
+     {
+      category: "Still in progress....",
+      title: "EcoAction",
+      description:
+        "EcoAction is a MERN stack-based AI platform that I developed to enable communities to report and analyze environmental data. I designed the backend APIs, database schema, and integrated generative AI to automate data summarization and provide actionable insights",
+      image: EcoAction,
+      buttonText: "View Project",
+      url: {}, 
     },
      {
       // category: "Package Design Project",
